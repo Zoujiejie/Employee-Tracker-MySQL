@@ -4,11 +4,13 @@
 This is a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL. This application will allow users to view, add, and edit employees, roles, departments, and managers
 
 ## Websites
-- Click to view walk through video: [Screencastify](???)
+- Click to view walk through video: [Screencastify](https://app.castify.com/watch/5601ca36-a744-495e-92fc-36d5c78dc6b9)
 - GitHub Repo; https://github.com/Zoujiejie/Employee-Tracker-MySQL 
 
 ## Usage & Installation
-- 
+- Run ```npm install``` to download all the dependencies (inquirer, express, mysql2, console.table, dotenv)
+- Open mysql in the integrated terminal, run ```mysql -u root -p``` to start mysql, run ```source db/schema.sql``` and ```source db/seeds.sql``` to retrieve data from the employee_db database
+- Open server.js in the intergated terminal and run ```node server.js``` to start the prompts
 
 ## User Story
 ```sh
@@ -37,3 +39,7 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 ```
+
+## Screenshot
+This is a screenshot of tables in mysql.
+![MySQL Tables Screenshot](./assets/mysql-tables.jpeg)

@@ -58,17 +58,17 @@ function startPrompt() {
             case 'Update An Employee Manager':
                 updateEmployeeManager();
                 break;
-            case 'Delete Department':
+            case 'Delete a Department':
                 deleteDepartment();
                 break;
-            case 'Delete Role':
+            case 'Delete a Role':
                 deleteRole();
                 break;
-            case 'Delete Employee':
+            case 'Delete an Employee':
                 deleteEmployee();
                 break;
             case 'No Action':
-                connection.end();
+                db.end();
         }
     })
 };
