@@ -4,7 +4,7 @@
 This is a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL. This application will allow users to view, add, and edit employees, roles, departments, and managers
 
 ## Websites
-- Click to view walk through video: [Screencastify](https://app.castify.com/watch/5601ca36-a744-495e-92fc-36d5c78dc6b9)
+- Click to view the deployed Walk Through Video via Google Drive: [Employee-Tracker-MySQL](https://drive.google.com/file/d/1SzLO-IjISAZt6PPdj0sq9N_z3jKWYkVf/view)
 - GitHub Repo; https://github.com/Zoujiejie/Employee-Tracker-MySQL 
 
 ## Usage & Installation
